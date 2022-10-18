@@ -1,107 +1,108 @@
+body{
+    font-family: "Roboto";
+}
+
 .Web{
-  font-family: "Raleway";
-  font-size: 26px;
-  font-style: normal;
-  color: #2196F3;
-}
-
-.header-logo{
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 14px;
-    font-style: normal;
-    color: #212121;
-}
-
-.header-link{
-    font-family: "Roboto";
-    font-weight: 500;
-    font-size: 14px;
-    font-style: normal;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
     color: #2196F3;
 }
 
-h3.{
-    font-family: 'Roboto';
+.header-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    color: black;
+}
+
+.footer-logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    color: black;
+}
+
+.header-link{
     font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-    color: #212121;
-}
-
-.兄さん{
-    font-family: "Roboto";
-    font-weight: 900;
-    font-size: 44px;
-    font-style: normal;
-    color: #212121;
-    text-align: center;
-}
-
-button#デートバヨ{
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 16px;
-    font-style: normal;
-    color: #212121;
-}
-
-.弟{
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 16px;
-    font-style: normal;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    text-align: center;
-}
-
-h2.弟十{
-    font-family: "Roboto";
-    font-weight: 700;
-    font-size: 36px;
-    font-style: normal;
-    color: #212121;
-    text-align: center;
-}
-
-h2#オハイオ{
-font-family: "Roboto";
-font-weight: 700;
-font-style: normal;
-font-size: 14px;
-color: #212121;
-}
-
-.Ukrainian{
-    font-family: "Roboto";
-    font-weight: 400;
     font-size: 14px;
-    font-style: normal;
     color: #212121;
 }
 
-p.Ukrainian{
-    font-family: "Roboto";
+.header-link:hover{
+    color: #2196F3;
+}
+
+.contact-link:hover{
+    color: #2196F3;
+}
+
+.contact-link{
+    font-weight: 500;
+    font-size: 14px;
+    color: #212121;
+    
+}
+
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    color: #212121;
+}
+
+.team-position{
     font-weight: 400;
     font-size: 16px;
-    font-style: normal;
     color: #757575;
 }
 
-address.Ukrainian{
-    font-family: "Roboto";
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    color: #212121;
+    text-align: center;
+}
+
+.hero-button{
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.work-title{
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+    text-align: center;
+}
+
+.qualities-title{
+    font-weight: 700;
+    font-size: 14px;
+    color: #212121;
+}
+
+.qualities-text{
     font-weight: 400;
     font-size: 14px;
-    font-style: normal;
+    color: #757575;
+}
+
+.footer-address{
+    font-weight: 400;
+    font-size: 14px;
     color: #FFFFFF;
 }
 
-a.Ukrainian{
-    font-family: "Roboto";
+.footer-link{
     font-weight: 400;
     font-size: 14px;
-    font-style: normal;  
     color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover{
+    color: #2196F3;
 }
