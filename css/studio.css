@@ -82,16 +82,10 @@ body{
 
 .hero-section{
     text-align: center;
+    display: flex;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
     background: #2F303A;
-}
-
-.hero-containar{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: solid red;
+    background-image: url(../img-2/Img.jpg);
+    background-repeat: no-repeat;
 }
 
 .hero-title{
@@ -117,17 +111,8 @@ body{
     background: #FFFFFF;
 }
 
-.qualities-containar{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: solid red;
-}
-
 .qualities-list{
-    padding-top: 94px;
+    padding-top: 30px;
     padding-bottom: 188px;
     text-align: center;
     display: flex;
@@ -139,11 +124,11 @@ body{
 
 .qualities-list{
     margin-right: 30px;
-    margin-left: 215px;
     height: 75px;
 }
 
 .qualities-title{
+    margin-top: 10px;
     font-weight: 700;
     font-size: 14px;
     color: #212121;
@@ -154,15 +139,6 @@ body{
     font-weight: 400;
     font-size: 14px;
     color: #757575;
-}
-
-.work-containar{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: solid red;
 }
 
 .work-item{
@@ -198,15 +174,6 @@ body{
 
 .team-section{
     background: #F5F4FA;
-}
-
-.team-containar{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: solid red;
 }
 
 .team-list{
@@ -251,15 +218,6 @@ body{
     font-weight: 700;
     font-size: 26px;
     color: #2196F3;
-}
-
-.footer-containar{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: solid red;
 }
 
 .footer-logo{

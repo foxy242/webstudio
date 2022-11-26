@@ -96,6 +96,14 @@ body{
     display: flex;
 }
 
+.buttons-button{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 23px;
+    
+}
+
 .buttons-button:hover{
     background-color: #2196F3;
 }
