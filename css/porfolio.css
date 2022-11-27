@@ -80,15 +80,6 @@ body{
     
 }
 
-.main-containar{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: solid red;
-}
-
 .buttons-list{
     padding-right: 494px;
     padding-left: 495px;
@@ -124,15 +115,6 @@ body{
 
 .footer{
     background: #2F303A;
-}
-
-.footer-containar{
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    outline: solid red;
 }
 
 .footer-address{
