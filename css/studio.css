@@ -28,8 +28,14 @@ body {
   display: flex;
 }
 
-.header-page {
-  margin-right: 50px;
+.header-icon {
+  height: 12px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.header-page:not(:first-child) {
+  margin-left: 55px;
 }
 
 .header-contacts {
@@ -39,7 +45,7 @@ body {
 }
 
 .header-contact {
-  margin-right: 50;
+  /* margin-right: 50; */
 }
 
 .Web {
@@ -73,6 +79,8 @@ body {
 }
 
 .contact-link {
+  display: flex;
+  align-items: center;
   margin-right: 30px;
   font-weight: 500;
   font-size: 14px;
@@ -147,8 +155,15 @@ body {
   width: 370px;
 }
 
-.work-img:hover {
-  color: rgba(47, 48, 58, 0.8);
+.work-text {
+  position: absolute;
+  left: 95px;
+  bottom: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.work-item {
+  position: relative;
 }
 
 .work-section {
@@ -295,6 +310,7 @@ body {
   margin-top: 16px;
   border-radius: 100px 100px 100px 100px;
   border: none;
+  display: flex;
 }
 
 .footer-button:hover {
@@ -341,4 +357,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   background: #2f303a;
+}
+
+.footer-contact {
 }
