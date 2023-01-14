@@ -11,7 +11,7 @@ body {
   outline: solid red;
 }
 
-.header-section {
+.header {
   background-color: #ffffff;
   text-align: center;
 }
@@ -20,7 +20,7 @@ body {
   display: flex;
 }
 
-.header-pages {
+.header__pages {
   margin-top: 32px;
   margin-right: 335px;
   margin-left: 93px;
@@ -28,7 +28,7 @@ body {
   display: flex;
 }
 
-.header-page {
+.header__page {
   margin-right: 50px;
 }
 
@@ -42,7 +42,7 @@ body {
   margin-right: 50;
 }
 
-.Web {
+.header__web {
   margin-top: 24px;
   margin-bottom: 25px;
   font-family: "Raleway";
@@ -51,7 +51,7 @@ body {
   color: #2196f3;
 }
 
-.header-logo {
+.header__logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;

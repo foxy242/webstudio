@@ -11,16 +11,16 @@ body {
   outline: solid red;
 }
 
-.header-section {
+.header {
   background-color: #ffffff;
   text-align: center;
 }
 
-.header-section .containar {
+.header .containar {
   display: flex;
 }
 
-.header-pages {
+.header__pages {
   margin-top: 32px;
   margin-right: 335px;
   margin-left: 93px;
@@ -28,27 +28,27 @@ body {
   display: flex;
 }
 
-.header-icon {
+.header__icon {
   height: 12px;
   width: 16px;
   margin-right: 10px;
 }
 
-.header-page:not(:first-child) {
+.header__page:not(:first-child) {
   margin-left: 55px;
 }
 
-.header-contacts {
+.header__contacts {
   margin-top: 32px;
   text-align: center;
   display: flex;
 }
 
-.header-contact {
+.header__contact {
   /* margin-right: 50; */
 }
 
-.Web {
+.header__web {
   margin-top: 24px;
   margin-bottom: 25px;
   font-family: "Raleway";
@@ -57,28 +57,28 @@ body {
   color: #2196f3;
 }
 
-.header-logo {
+.header__logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   color: black;
 }
 
-.header-link {
+.header__link {
   font-weight: 500;
   font-size: 14px;
   color: #212121;
 }
 
-.header-link:hover {
+.header__link:hover {
   color: #2196f3;
 }
 
-.contact-link:hover {
+.contact__link:hover {
   color: #2196f3;
 }
 
-.contact-link {
+.contact__link {
   display: flex;
   align-items: center;
   margin-right: 30px;
@@ -87,7 +87,7 @@ body {
   color: #212121;
 }
 
-.hero-section {
+.hero {
   text-align: center;
   display: flex;
   background: #2f303a;
@@ -95,7 +95,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.hero-title {
+.hero__title {
   padding-top: 200px;
   margin-bottom: 30px;
   font-weight: 900;
@@ -103,7 +103,7 @@ body {
   color: #ffffff;
 }
 
-.hero-button {
+.hero__button {
   font-weight: 700;
   font-size: 16px;
   color: white;
@@ -116,62 +116,62 @@ body {
   border-radius: 4px;
 }
 
-.qualities-section {
+.qualities {
   background: #ffffff;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.qualities-list {
+.qualities__list {
   text-align: center;
   display: flex;
 }
 
-.qualities-item {
+.qualities__item {
   margin-right: 30px;
 }
 
-.qualities-title {
+.qualities__-title {
   margin-top: 10px;
   font-weight: 700;
   font-size: 14px;
   color: #212121;
 }
 
-.qualities-text {
+.qualities__text {
   margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
   color: #757575;
 }
 
-.work-list {
+.work__list {
   gap: 30px;
   justify-content: center;
   display: flex;
 }
 
-.work-img {
+.work__img {
   width: 370px;
 }
 
-.work-text {
+.work__text {
   position: absolute;
   left: 95px;
   bottom: 27px;
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.work-item {
+.work__item {
   position: relative;
 }
 
-.work-section {
+.work {
   padding-bottom: 94px;
   background: #ffffff;
 }
 
-.work-title {
+.work__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -179,19 +179,19 @@ body {
   text-align: center;
 }
 
-.team-section {
+.team {
   padding-bottom: 94px;
   padding-top: 94px;
   background: #f5f4fa;
 }
 
-.team-list {
+.team__list {
   justify-content: center;
   display: flex;
   gap: 30px;
 }
 
-.team-title {
+.team__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -201,7 +201,7 @@ body {
   color: #212121;
 }
 
-.team-item {
+.team__item {
   text-align: center;
   padding-bottom: 30px;
   background: #ffffff;
@@ -210,11 +210,11 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-img {
+.team__img {
   width: 270px;
 }
 
-.team-name {
+.team__name {
   margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
@@ -222,13 +222,13 @@ body {
   color: #212121;
 }
 
-.team-position {
+.team__position {
   font-weight: 400;
   font-size: 16px;
   color: #757575;
 }
 
-.team-button {
+.team__button {
   width: 44px;
   height: 44px;
   margin-top: 16px;
@@ -237,29 +237,29 @@ body {
   border: none;
 }
 
-.team-button:hover {
+.team__button:hover {
   width: 44px;
   height: 44px;
   background: #2196f3;
 }
 
-.team-img2 {
+/* .team__img2 {
   color: #afb1b8;
   width: 20px;
   height: 20px;
 }
 
-.team-img2:hover {
+.team__img2:hover {
   width: 20px;
   height: 20px;
   color: white;
-}
+} */
 
-.client-section {
+.client {
   background-color: white;
 }
 
-.client-button {
+.client__button {
   margin-bottom: 154px;
   margin-left: 15px;
   margin-top: 50px;
@@ -270,7 +270,7 @@ body {
   border-radius: 4px;
 }
 
-.client-button:hover {
+.client__button:hover {
   box-sizing: border-box;
   width: 170px;
   height: 90px;
@@ -278,79 +278,79 @@ body {
   border-radius: 4px;
 }
 
-.client-img:hover {
+.client__svg:hover {
   color: #2196f3;
 }
 
-.client-logo1 {
+.client__logo1 {
   width: 44.27px;
   height: 49.23px;
 }
 
-.client-logo2 {
+.client__logo2 {
   width: 40px;
   height: 52px;
 }
 
-.client-logo3 {
+.client__logo3 {
   width: 41px;
   height: 42.6px;
 }
 
-.client-logo4 {
+.client__logo4 {
   width: 79.66px;
   height: 42.02px;
 }
 
-.client-logo5 {
+.client__logo5 {
   width: 59px;
   height: 47px;
 }
 
-.client-logo6 {
+.client__logo6 {
   width: 88.48px;
   height: 45.44px;
 }
 
-.client-logo2:hover {
+.client__logo2:hover {
   color: #2196f3;
 }
 
-.client-logo3:hover {
+.client__logo3:hover {
   color: #2196f3;
 }
 
-.client-logo4:hover {
+.client__logo4:hover {
   color: #2196f3;
 }
 
-.client-logo5:hover {
+.client__logo5:hover {
   color: #2196f3;
 }
 
-.client-logo6:hover {
+.client__logo6:hover {
   color: #2196f3;
 }
 
-.footer-Web {
+.footer__Web {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   color: #2196f3;
 }
 
-.footer-logo {
+.footer__logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   color: white;
 }
 
-.footer-title {
+.footer__title {
   color: #ffffff;
 }
 
-.footer-button {
+.footer__button {
   background: rgba(255, 255, 255, 0.1);
   width: 44px;
   height: 44px;
@@ -360,13 +360,13 @@ body {
   display: flex;
 }
 
-.footer-button:hover {
+.footer__button:hover {
   width: 44px;
   height: 44px;
   background: #2196f3;
 }
 
-.footer-button-2 {
+.footer__button-2 {
   text-align: center;
   width: 200px;
   height: 50px;
@@ -375,22 +375,22 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.footer-icon {
+.footer__icon {
 }
 
-.footer-img2 {
+.footer__img2 {
   color: white;
   width: 20px;
   height: 20px;
 }
 
-.footer-img2:hover {
+.footeir__mg2:hover {
   width: 20px;
   height: 20px;
   color: white;
 }
 
-.footer-address {
+.footer__address {
   font-size: normal;
   margin-top: 20px;
   margin-bottom: 9px;
@@ -399,16 +399,16 @@ body {
   color: #ffffff;
 }
 
-.footer-link {
+.footer__link {
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link:first-child {
+.footer__link:first-child {
   margin-bottom: 9px;
 }
 
-.footer-link:hover {
+.footer__link:hover {
   color: #2196f3;
 }
 
@@ -418,30 +418,30 @@ body {
   background: #2f303a;
 }
 
-.footer-contact {
+.footer__contact {
 }
 
-.footer-instagram {
+.footer__instagram {
   width: 20px;
   height: 20px;
 }
 
-.footer-twitter {
+.footer__twitter {
   width: 20px;
   height: 16.25px;
 }
 
-.footer-facebook {
+.footer__facebook {
   width: 10px;
   height: 20px;
 }
 
-.footer-linkedin {
+.footer__linkedin {
   width: 20px;
   height: 20px;
 }
 
-.card-button {
+.card__button {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -452,7 +452,7 @@ body {
   height: 50px;
 }
 
-.card-button:hover {
+.card__button:hover {
   background-color: #004b89;
   color: #626262;
 }
