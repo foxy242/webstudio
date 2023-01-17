@@ -1,0 +1,17 @@
+.buttons__list {
+    padding-right: 494px;
+    padding-left: 495px;
+    text-align: center;
+    display: flex;
+}
+
+.buttons__button {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 23px;
+}
+
+.buttons__button:hover {
+    background-color: #2196f3;
+}

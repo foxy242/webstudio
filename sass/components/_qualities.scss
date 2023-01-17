@@ -1,0 +1,28 @@
+.qualities {
+    background: #ffffff;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.qualities__list {
+    text-align: center;
+    display: flex;
+}
+
+.qualities__item {
+    margin-right: 30px;
+}
+
+.qualities__-title {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #212121;
+}
+
+.qualities__text {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #757575;
+}

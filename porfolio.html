@@ -13,119 +13,128 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/porfolio.css" />
+<link rel="stylesheet" href="./css/porfolio.min.css">
   </head>
   <body>
     <!-- Шапка сайту -->
     <header class="header">
       <div class="containar">
-      <a class="header__web" href="/">Web<span class="header__logo">Studio</span></a>
-      <ul class="header__pages">
-        <li class="header__page">
-          <a class="header__link" href="./index.html">Студія</a>
-        </li>
-        <li class="header-page">
-          <a class="header-link" href="./porfolio.html">Портфоліо</a>
-        </li>
-        <li class="header-page">
-          <a class="header-link" href="#">Контакти</a>
-        </li>
-      </ul>
-      <ul class="header-contacts">
-        <li class="header-contact">
-          <a class="contact-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header-contact">
-          <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </div>
+        <a class="header__web" href="/">Web<span class="header__logo">Studio</span></a>
+        <ul class="header__pages">
+          <li class="header__page">
+            <a class="header__link" href="./index.html">Студія</a>
+          </li>
+          <li class="header__page">
+            <a class="header__link" href="./porfolio.html">Портфоліо</a>
+          </li>
+          <li class="header__page">
+            <a class="header__link" href="#">Контакти</a>
+          </li>
+        </ul>
+        <ul class="header__contacts">
+          <li class="header__contact">
+            <a class="contact__link" href="mailto:info@devstudio.com" 
+              >
+              <svg class="header__icon">
+                <use href="./img/symbol-defs.svg#icon-email"></use>
+              </svg>
+              <span>info@devstudio.com</span>
+              </a>
+          </li>
+          <li class="header__contact">
+
+            <a class="contact__link" href="tel:+380961111111">
+              <svg class="header__icon">
+                <use herf="./img/symbol-defs.svg#icon-smartphone"></use>
+              </svg>    
+              <span>+38 096 111 11 11</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </header>
     <!-- мейн -->
     <main>
-      <div class="main-containar">
-        <ul class="buttons-list">
-          <li class="buttons-item">
-            <button class="buttons-button" type="button">Усе</button>
+      <div class="containar">
+        <ul class="buttons__list">
+          <li class="buttons__item">
+            <button class="buttons__button" type="button">Усе</button>
           </li>
-          <li class="buttons-item">
-            <button class="buttons-button" type="button">Веб-сайти</button>
+          <li class="buttons__item">
+            <button class="buttons__button" type="button">Веб-сайти</button>
           </li>
-          <li class="buttons-item">
-            <button class="buttons-button" type="button">Застусунки</button>
+          <li class="buttons__item">
+            <button class="buttons__button" type="button">Застусунки</button>
           </li>
-          <li class="buttons-item">
-            <button class="buttons-button" type="button">Дізайн</button>
+          <li class="buttons__item">
+            <button class="buttons__button" type="button">Дізайн</button>
           </li>
-          <li class="buttons-item">
-            <button class="buttons-button" type="button">Маркетинг</button>
-          </li class="buttons-item">
+          <li class="buttons__item">
+            <button class="buttons__button" type="button">Маркетинг</button>
+          </li class="buttons__item">
         </ul>
-        <ul class="poster-list">
-          <li class="poster-item">
-            <img class="poster-img" src="./img/img-(9).png" alt="img" />
-            <h3 class="poster-title">Технокряк</h3>
-            <p class="poster-text">Веб-сайт</p>
+        <ul class="poster__list">
+          <li class="poster__item">
+            <img class="poster__img" src="./img/img-(9).png" alt="img" />
+            <h3 class="poster__title">Технокряк</h3>
+            <p class="poster__text">Веб-сайт</p>
           </li>
-          <li class="poster-item">
-            <img class="poster-img" src="./img/img-(1).png" alt="img(1)" />
-            <h3 class="poster-title">Постер New Orlean vs Golden Star</h3>
-            <p class="poster-text">Дизайн</p>
+          <li class="poster__item">
+            <img class="postervimg" src="./img/img-(1).png" alt="img(1)" />
+            <h3 class="poster__title">Постер New Orlean vs Golden Star</h3>
+            <p class="poster__text">Дизайн</p>
           </li>
-          <li class="poster-item">
-            <img class="poster-img" src="./img/img-(2).png" alt="img(2)" />
-            <h3 class="poster-title">Ресторан Seafood</h3>
-            <p class="poster-text">Застосунок</p>
+          <li class="poster__item">
+            <img class="postervimg" src="./img/img-(2).png" alt="img(2)" />
+            <h3 class="postervtitle">Ресторан Seafood</h3>
+            <p class="poster__text">Застосунок</p>
           </li>
-          <li class="poster-item">
-            <img class="poster-img" src="./img/img-3(3).png" alt="img(3)" />
-            <h3 class="poster-title">Проект Prime</h3>
-            <p class="poster-text">Маркетинг</p>
+          <li class="poster__item">
+            <img class="poster__img" src="./img/img-3(3).png" alt="img(3)" />
+            <h3 class="poster__title">Проект Prime</h3>
+            <p class="poster__text">Маркетинг</p>
           </li>
-          <li class="poster-item">
-            <img class="poster-img" src="./img/img-(4).png" alt="img(4)" />
-            <h3 class="poster-title">Проект Boxes</h3>
-            <p class="poster-text">Застосунок</p>
+          <li class="poster__item">
+            <img class="poster__img" src="./img/img-(4).png" alt="img(4)" />
+            <h3 class="poster__title">Проект Boxes</h3>
+            <p class="poster__text">Застосунок</p>
           </li>
-          <li class="poster-item">
-            <img class="poster-img" src="./img/img-(5).png" alt="img(5)" />
-            <h3 class="poster-title">Inspiration has no Borders</h3>
-            <p class="poster-text">Веб-сайт</p>
+          <li class="poster__item">
+            <img class="poster__img" src="./img/img-(5).png" alt="img(5)" />
+            <h3 class="poster__title">Inspiration has no Borders</h3>
+            <p class="poster__text">Веб-сайт</p>
           </li>
-          <li class="poster-item">
-            <img class="poster-img" src="./img/img-(6).png" alt="img(6)" />
-            <h3 class="poster-title">Видавництво Limited Edition</h3>
-            <p class="poster-text">Дизайн</p>
+          <li class="poster__item">
+            <img class="poster__img" src="./img/img-(6).png" alt="img(6)" />
+            <h3 class="poster__title">Видавництво Limited Edition</h3>
+            <p class="poster__text">Дизайн</p>
           </li>
-          <li class="poster-item">
-            <img class="poster-img" src="./img/img-(7).png" alt="img(7)" />
-            <h3 class="poster-title">Проект LAB</h3>
-            <p class="poster-text">Маркетинг</p>
+          <li class="poster__item">
+            <img class="poster__img" src="./img/img-(7).png" alt="img(7)" />
+            <h3 class="poster__title">Проект LAB</h3>
+            <p class="poster__text">Маркетинг</p>
           </li>
-          <li class="poster-item">
-            <img class="poster-img" src="./img/img-(8).png" alt="img(8)" />
-            <h3 class="poster-title">Growing Business</h3>
-            <p class="poster-text">Застосунок</p>
+          <li class="poster__item">
+            <img class="poster__img" src="./img/img-(8).png" alt="img(8)" />
+            <h3 class="poster__title">Growing Business</h3>
+            <p class="poster__text">Застосунок</p>
           </li>
         </ul>
       </div>
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="footer-containar">
-      <h2 class="footer-Web" href="/">Web<span class="footer-logo">Studio</span></h2>
-      <address class="footer-address">м. Київ, пр-т Лесі Українки, 26</address>
-      <ul class="footer-contacts">
-        <li class="footer-contact">
-          <a class="footer-link" href="mailto:info@devstudio.com"
+      <div class="containar">
+      <h2 class="footer__Web" href="/">Web<span class="footer__logo">Studio</span></h2>
+      <address class="footer__address">м. Київ, пр-т Лесі Українки, 26</address>
+      <ul class="footer__contacts">
+        <li class="footer__contact">
+          <a class="footer__link" href="mailto:info@devstudio.com"
             >info@example.com</a
           >
         </li>
-        <li class="footer-contact">
-          <a class="footer-link" href="tel:+380961111111">+38 099 111 11 11</a>
+        <li class="footer__contact">
+          <a class="footer__link" href="tel:+380961111111">+38 099 111 11 11</a>
         </li>
       </ul>
     </div>

@@ -1,0 +1,33 @@
+.work__list {
+    gap: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.work__img {
+    width: 370px;
+}
+
+.work__text {
+    position: absolute;
+    left: 95px;
+    bottom: 27px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.work__item {
+    position: relative;
+}
+
+.work {
+    padding-bottom: 94px;
+    background: #ffffff;
+}
+
+.work__title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+    text-align: center;
+}

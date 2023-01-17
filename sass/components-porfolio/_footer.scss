@@ -1,0 +1,45 @@
+.footer {
+    background: #2f303a;
+}
+
+.footer__address {
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+}
+
+.footer__link {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    display: flex;
+}
+
+.footer__link:hover {
+    color: #2196f3;
+    text-align: center;
+    display: flex;
+}
+
+.footer__Web {
+    margin-top: 24px;
+    margin-bottom: 25px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    color: #2196f3;
+    text-align: center;
+    display: flex;
+}
+
+.footer__logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    color: black;
+    text-align: center;
+    display: flex;
+}
