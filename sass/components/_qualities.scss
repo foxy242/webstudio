@@ -5,7 +5,6 @@
 }
 
 .qualities__list {
-    text-align: center;
     display: flex;
 }
 
@@ -13,16 +12,23 @@
     margin-right: 30px;
 }
 
-.qualities__-title {
+.qualities__title {
     margin-top: 10px;
     font-weight: 700;
     font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #212121;
+    
 }
 
 .qualities__text {
     margin-top: 10px;
     font-weight: 400;
     font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
     color: #757575;
 }
