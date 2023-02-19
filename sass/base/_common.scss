@@ -3,10 +3,33 @@ body {
 }
 
 .containar {
+    min-width: 1024px
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     outline: solid red;
+}
+
+@media screen (min-width: 768px){
+    .containar {
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        outline: solid red;
+    } 
+}
+
+@media screen (max-width: 980px){
+    .containar {
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        outline: solid red;
+    } 
 }
