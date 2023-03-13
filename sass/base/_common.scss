@@ -4,7 +4,7 @@ body {
 
 .containar {
 //     min-width: 1024px;
-    width: 1200px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -23,7 +23,7 @@ body {
     } 
 }
 
-@media screen (max-width: 980px){
+@media screen (max-width: 425px){
     .containar {
         width: 1200px;
         padding-left: 15px;
@@ -34,7 +34,7 @@ body {
     } 
 }
 
-@media screen (max-width: 1024px){
+@media screen (min-width: 1024px){
     .containar {
         width: 1200px;
         padding-left: 15px;
