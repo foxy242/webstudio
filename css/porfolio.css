@@ -54,10 +54,32 @@ body {
   text-align: center;
 }
 
+@media screen and (max-width: 980px) {
+  .header {
+    background-color: #ffffff;
+    text-align: center;
+    width: 480;
+  }
+}
 .header .containar {
-  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: solid red;
 }
 
+@media screen and (max-width: 980px) {
+  .header .containar {
+    width: 442px;
+    padding-left: 15px;
+    padding-right: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid red;
+  }
+}
 .header__pages {
   margin-top: 32px;
   margin-right: 335px;
@@ -82,6 +104,18 @@ body {
   display: flex;
 }
 
+@media screen and (max-width: 980px) {
+  .header__web {
+    width: 134px;
+    height: 28px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    color: #2196f3;
+  }
+}
 .header__web {
   margin-top: 24px;
   margin-bottom: 25px;
@@ -91,6 +125,14 @@ body {
   color: #2196f3;
 }
 
+@media screen and (max-width: 980px) {
+  .header__logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    color: black;
+  }
+}
 .header__logo {
   font-family: "Raleway";
   font-weight: 700;
@@ -115,7 +157,6 @@ body {
 .contact__link {
   display: flex;
   align-items: center;
-  margin-right: 30px;
   font-weight: 500;
   font-size: 14px;
   color: #212121;
@@ -126,6 +167,8 @@ body {
   padding-left: 495px;
   text-align: center;
   display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .buttons__button {
@@ -144,6 +187,22 @@ body {
   font-size: 18px;
   line-height: 36px;
   color: #212121;
+  width: 100%;
+}
+@media screen and (min-width: 480px) {
+  .poster__item {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .poster__item {
+    width: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .poster__item {
+    width: 270px;
+  }
 }
 
 .poster__list {
@@ -151,6 +210,8 @@ body {
   margin-right: 215px;
   margin-top: 56px;
   padding-bottom: 94px;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .footer {
