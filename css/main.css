@@ -198,6 +198,10 @@ body {
   overflow: hidden;
 }
 
+.menu__icon {
+  right: auto;
+}
+
 .hero {
   text-align: center;
   display: flex;
