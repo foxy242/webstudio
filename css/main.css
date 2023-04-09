@@ -206,19 +206,24 @@ body {
   text-align: center;
   display: flex;
   background: #2f303a;
-  background-image: url(../img-2/Img.jpg);
   background-repeat: no-repeat;
 }
-
 @media screen and (max-width: 425px) {
   .hero {
-    text-align: center;
-    display: flex;
-    background: #2f303a;
-    background-image: url(../img-2/Img.jpg);
-    background-repeat: no-repeat;
+    background-image: url(/mobile/Header\ img@-\(1\)-1X.jpg);
   }
 }
+@media screen and (max-width: 1200px) {
+  .hero {
+    background-image: url(/desktop/Header\ img@-\(1\)-1X.jpg);
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    background-image: url(/tablet/Header\ img@-\(1\)-1X.jpg);
+  }
+}
+
 .hero__title {
   padding-top: 200px;
   margin-bottom: 30px;

@@ -3,12 +3,13 @@
     display: flex;
     background: #2f303a;
     @media screen and (max-width: 425px){
-        background-image: url(/);
+        background-image: url(/mobile/Header\ img@-\(1\)-1X.jpg);
     }
     @media screen and (max-width: 1200px){
-
+        background-image: url(/desktop/Header\ img@-\(1\)-1X.jpg);
     }
     @media screen and (max-width: 768px){
+        background-image: url(/tablet/Header\ img@-\(1\)-1X.jpg);
 
     }
     background-repeat: no-repeat;
